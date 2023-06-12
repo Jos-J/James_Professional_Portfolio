@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    background-color: lightgray
+}
+ /* formatting of the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+/* formatting the paragraphs */
+p {
+    margin: 0;
+    font-size: 24px;
+ }
+ /* header formatting */
+header {
+    padding: 20px 5px, 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+} 
+/* Avator in heading */
+.header img  {
+    width: 100px;
+    height: 100px;
+    float: left; 
+    display: inline; 
+    margin-left: 15px;
+    position: relative; 
+ }
+
+/* heading one, background color is there so i know what block to style */
+header h1 {
+    padding: 5px 5px 5px 0;
+    margin: 0;
+    font-size: 46px;
+    line-height: 2;
+    /* background-color: blue; */
+    /* display: inline-block; */
+}
+
+/* ul list in header */
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    
+}
+/* mouse over link */
+ nav a:hover{
+    background-size: 100% 100%;
+    color: white; 
+}
+
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+/* make the banner height larger than 300 to test the that the header links will scroll to the corresponding sections  */
+.banner {
+    background-image: url("Black_Hexagonal2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+   
+}
+/* borders for section about me, resume  */
+.page-wrap {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* i was trying to change the ul into a the avator */
+/* li::before {
+    background-image: url("Avator_black_man.png");
+}
+li{
+    background-size: 10px;
+} */
+
+/* a styling for body */
+address a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: right;
+    
+
+}
+/* styling for ul li */
+address ul li {
+    font-size: 16px;
+    display: list-item;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+    list-style: square;
+
+}
+
+/* styling for mouse on link  */
+address ul li a:hover {
+    color: white; 
+} 
+
+/*  responsive layout that adapts to my viewport */
+
+@media screen and(max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner{
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

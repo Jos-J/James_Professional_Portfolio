@@ -1,44 +1,30 @@
 # James_Professional_Portfolio
 
 # User Story
-as an employer
+Project title- Joshua James Portfolio
 
-I WANT to view a potential employee's deployed portfolio of work samples
+Motovation/Reason - So employers can  review samples of my work and assess whether im a good candidate for an open position.
 
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+Another reason i did this project is beacuse i feel like websites are getting out of control with the pop-us and ads and every other tool utilized to grab you attention while on the webpage. I waanted to show case a simple website thats efficient, that is easy to navigate.
 
-# Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
+Project Description- the project consisted of me creating a  web page portfolio from scratch. I could design the web page anyway i saw fit, but the acceptance criteria for the a assignment was
 
-GIVEN I need to sample a potential employee's previous work
+A link that scrolls to the corresponding section in the body.
 
-WHEN I load their portfolio 
+clicking the link to the section about projects and a application opens up displaying the projects. 
 
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+Having a link to to the employees's previous work. 
 
-WHEN I click one of the links in the navigation
+Presenting a responsive layout, that adopts to the viewpoint. 
 
-THEN the UI scrolls to the corresponding section
+Displaying the developers name, a recent photo or avatar, and links to sections about them. 
+#
+How to run project-  right click on index.html, open in default browser, test the links on the webpage. after 5 mintues right click on the mouse select inspect, press ctrl + shit + M, input various dimensions responsives and see if the screen adapts. 
 
-WHEN I click on the link to the section about their work
+How to use Project -  open up the webpage and test out the functionality of the webpage. 
 
-THEN the UI scrolls to a section with titled images of the developer's applications
+Credits- All the SMU training files
 
-WHEN I am presented with the developer's first application
-
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-
-THEN I am presented with a responsive layout that adapts to my viewport
-Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-
+![alt text](Screenshot_of_work.png "screenshot")
 
 
