@@ -25,6 +25,8 @@ How to use Project -  open up the webpage and test out the functionality of the 
 
 Credits- All the SMU training files
 
+https://jif945.github.io/James_Professional_Portfolio/#project
+
 ![alt text](Screenshot_of_work.png "screenshot")
 
 
