@@ -23,8 +23,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-- <a href="https://github.com/Jos-J/James_Professional_Portfolio"> Repo </a>
+- <a href="https://jos-j.github.io/James_Professional_Portfolio/"> Click to view webpage </a>
 
-![alt text](/Assets/images/Screenshot_of_work.png "screenshot")
+![alt text](/Assets/images/webpage.png "screenshot")
 
 
