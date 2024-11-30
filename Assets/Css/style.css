@@ -1,6 +1,7 @@
 /* Basic global styles */
 * {
     box-sizing: border-box;
+    word-break: break-all;
 }
 body {
     background-color: lightgray;
@@ -42,7 +43,8 @@ header h1 {
 }
 
 /* ul list in header */
-nav a {
+nav a,
+.project-item h3 a {
     text-decoration: none;
     padding: 5px 10px;
     margin-right: 10px;
@@ -52,7 +54,8 @@ nav a {
     
 }
 /* mouse over link */
- nav a:hover{
+ nav a:hover,
+ .project-item h3 a:hover {
     background-size: 100% 100%;
     color: white; 
 }
@@ -65,16 +68,17 @@ main {
 /* make the banner height larger than 300 to test the that the header links will scroll to the corresponding sections  */
 /* Banner styling */
 .banner {
-    background-image: url("/Assets/images/Black_Hexagonal2.jpg");
+    background-image: url("../images/Black_Hexagonal2.jpg");
+    /* background-color: blue; */
     background-size: cover;
     background-position: center;
     height: 150px; /* Adjust height as needed */
     width: 100%;
 }
-.banner img {
+.banner-image {
     width: 100%;
     height: auto;
-    max-height: 100px; /* Set maximum height for the image */
+    max-height: 100px;    /* Set maximum height for the image */
 }
 
 /* borders for section about me, resume  */
@@ -114,7 +118,7 @@ address ul li a:hover {
 }
 
 .project-item img {
-    width: 150px;
+    width: 225px;
     height: auto;
 }
 
@@ -153,7 +157,7 @@ address ul li a:hover {
 }
 footer {
     padding: 10px;
-    background-color: #333;
+    background-color: #202421;
     color: #fff;
     text-align: center;
 }
